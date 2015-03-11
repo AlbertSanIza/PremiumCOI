@@ -1,33 +1,16 @@
-
-  <md-content>
-    <md-card>
-      <img src="img/washedout.png" alt="Washed Out">
-      <md-card-content>
-        <h2>Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-    </md-card>
-    <md-card>
-      <img src="img/washedout.png" alt="Washed Out">
-      <md-card-content>
-        <h2>Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-    </md-card>
-    <md-card>
-      <img src="img/washedout.png" alt="Washed Out">
-      <md-card-content>
-        <h2>Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-    </md-card>
-  </md-content>
+<p style="padding-left: 20px;">
+  Bottom sheet can be dismissed with the service or a swipe down.
+</p>
+<div class="bottom-sheet-demo inset" layout="column" layout-sm="row" layout-align="center">
+  <md-button class="md-primary" ng-click="showListBottomSheet($event)">
+    Show as List
+  </md-button>
+  <div style="width:50px;"></div>
+  <md-button class="md-primary" ng-click="showGridBottomSheet($event)">
+    Show as Grid
+  </md-button>
+</div>
+<br/>
+<b layout="row" layout-align="center center" layout-margin>
+  {{alert}}
+</b>
