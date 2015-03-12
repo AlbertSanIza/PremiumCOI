@@ -2,9 +2,10 @@
   "name": "PremoiumCOI",
   "description": "Premium COI - Drafting Manager",
   "version": "0.0.1",
-  "main": "app/index.html",
+  "main": "app/back.html",
   "window": {
     "toolbar": true,
+    "frame": true,
     "width": 800,
     "height": 500,
     "min_width": 500,
