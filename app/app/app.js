@@ -6,18 +6,6 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/splash/splash.html',
       controller: 'SplashMain'
     }).
-    when('/start', {
-      templateUrl: 'partials/start/start.html',
-      controller: 'BottomSheet'
-    }).
-    when('/carousel', {
-      templateUrl: 'partials/carousel/carousel.html',
-      controller: 'BottomSheet'
-    }).
-    when('/aerial', {
-      templateUrl: 'partials/aerial/aerial.html',
-      controller: 'BottomSheet'
-    }).
     otherwise({
       redirectTo: '/splash'
     });
