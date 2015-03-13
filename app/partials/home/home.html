@@ -1,0 +1,65 @@
+<!-- Home -->
+<style>
+  .as-sortable-item, .as-sortable-placeholder {
+    width: auto;
+    margin: 2px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    list-style: none;
+  }
+  .as-sortable-placeholder {
+    border: 10px dotted #0000ff !important;
+  }
+  #sortable-container {
+    display: inline-block;
+  }
+  .column {
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+</style>
+<div class="backstretch" backstretch backstretch-images="'source/img/background/test-01.jpg'" backstretch-duration="5000" backstretch-fade="1">
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <ul as-sortable="sortableOptions" ng-model="items">
+          <li ng-repeat="item in items" as-sortable-item class="as-sortable-item">
+            <div as-sortable-item-handle class="as-sortable-item-handle" style="height:50px">
+              <span data-ng-bind="item.name"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul as-sortable="sortableOptions" ng-model="items">
+          <li ng-repeat="item in items" as-sortable-item class="as-sortable-item">
+            <div as-sortable-item-handle class="as-sortable-item-handle" style="height:50px">
+              <span data-ng-bind="item.name"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul as-sortable="sortableOptions" ng-model="items">
+          <li ng-repeat="item in items" as-sortable-item class="as-sortable-item">
+            <div as-sortable-item-handle class="as-sortable-item-handle" style="height:50px">
+              <span data-ng-bind="item.name"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul as-sortable="sortableOptions" ng-model="items">
+          <li ng-repeat="item in items" as-sortable-item class="as-sortable-item">
+            <div as-sortable-item-handle class="as-sortable-item-handle" style="height:50px">
+              <span data-ng-bind="item.name"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

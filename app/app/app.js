@@ -10,6 +10,14 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/login/login.html',
       controller: 'LoginMain'
     }).
+    when('/home', {
+      templateUrl: 'partials/home/home.html',
+      controller: 'HomeMain'
+    }).
+    when('/firebase', {
+      templateUrl: 'partials/firebase/firebase.html',
+      controller: 'FirebaseMain'
+    }).
     otherwise({
       redirectTo: '/splash'
     });
@@ -20,9 +28,7 @@ premiumApp.controller('NavCtrl', function($scope, $window){
   $scope.ReloadApp = function(){
     $window.location.reload();
   };
-
   $scope.images = [
     'source/img/backgorund.jpg'
   ];
-
 });

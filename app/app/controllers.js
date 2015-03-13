@@ -1,4 +1,6 @@
 var premiumControllers = angular.module('PremiumControllers',[
   'SplashCtrl',
-  'LoginCtrl'
+  'LoginCtrl',
+  'HomeCtrl',
+  'FirebaseCtrl'
 ]);

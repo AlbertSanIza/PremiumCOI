@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "main": "app/index.html",
   "window": {
-    "toolbar": true,
+    "toolbar": false,
     "frame": true,
-    "width": 800,
-    "height": 500,
-    "min_width": 600,
-    "min_height": 500
+    "width": 900,
+    "height": 600,
+    "min_width": 900,
+    "min_height": 600
   }
 }

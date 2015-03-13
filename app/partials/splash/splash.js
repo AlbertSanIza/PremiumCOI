@@ -1,7 +1,7 @@
 var splashCtrl = angular.module('SplashCtrl',[]);
 
 splashCtrl.controller('SplashMain', function($scope){
-  $scope.images = [
+  $scope.backgroundImages = [
     'source/img/background/splash-01.jpg'
   ];
 });
