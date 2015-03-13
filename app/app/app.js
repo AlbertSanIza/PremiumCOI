@@ -6,6 +6,10 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/splash/splash.html',
       controller: 'SplashMain'
     }).
+    when('/login', {
+      templateUrl: 'partials/login/login.html',
+      controller: 'LoginMain'
+    }).
     otherwise({
       redirectTo: '/splash'
     });
