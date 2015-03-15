@@ -6,4 +6,25 @@
 <br>
 <div class="container">
   Firebase
+  <a href="https://mz3y9nv2eru.firebaseio-demo.com/">aqui esta la prueba</a>
+
+    <div class="example-chat l-demo-container">
+      <header>Firebase Chat Demo</header>
+
+      <div class="example-chat-toolbar">
+        <label for="nameInput">Username:</label>
+        <input ng-model="name" type="text" id="nameInput" placeholder="enter a username...">
+      </div>
+
+      <ul id="example-messages" class="example-chat-messages">
+        <li ng-repeat="msg in messages">
+          <strong class="example-chat-username">{{ msg.from }}</strong>
+          {{ msg.body }}
+        </li>
+      </ul>
+
+      <footer>
+        <input ng-model="msg" ng-keydown="addMessage($event)" type="text" id="messageInput"  placeholder="Type a message...">
+      </footer>
+    </div>
 </div>

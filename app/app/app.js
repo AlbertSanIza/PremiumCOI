@@ -19,7 +19,7 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       controller: 'FirebaseMain'
     }).
     otherwise({
-      redirectTo: '/splash'
+      redirectTo: '/home'
     });
 
 }]);
@@ -28,7 +28,4 @@ premiumApp.controller('NavCtrl', function($scope, $window){
   $scope.ReloadApp = function(){
     $window.location.reload();
   };
-  $scope.images = [
-    'source/img/backgorund.jpg'
-  ];
 });
