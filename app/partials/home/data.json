@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {"name": "Task", "cards": [
+      {"title": "1 Uno", "label": {"type":"danger", "text":"H"}}
+    ]},
+
+    {"name": "Albert S.", "cards": [
+      {"title": "Terminar app", "label": {"type":"warning", "text":"M"}},
+      {"title": "Terminar bien el app", "label": {"type":"info", "text":"L"}}
+    ]},
+    {"name": "Allay U.", "cards": [
+    ]},
+    {"name": "Christian V.", "cards": [
+    ]}
+  ]
+}
