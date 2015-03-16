@@ -19,7 +19,7 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       controller: 'FirebaseMain'
     }).
     otherwise({
-      redirectTo: '/home'
+      redirectTo: '/splash'
     });
 
 }]);
