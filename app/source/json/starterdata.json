@@ -1,0 +1,21 @@
+{
+  "users": [
+    {"user":"alsanchez", "password":"hubbell"}
+  ],
+  "columns": [
+    {"name": "Task", "cards": [
+      {"title": "EC 150225013", "label": {"type":"danger", "text":"H"}, "date":{"c":"03/17/15", "d":""}},
+      {"title": "EC 140124012", "label": {"type":"warning", "text":"M"}, "date":{"c":"03/10/15", "d":""}},
+      {"title": "PN 93026236", "label": {"type":"info", "text":"L"}, "date":{"c":"03/15/15", "d":""}}
+    ]},
+    {"name": "Albert S.", "cards": [
+    ]},
+    {"name": "Allay U.", "cards": [
+    ]},
+    {"name": "Christian V.", "cards": [
+    ]}
+  ],
+  "notification": [
+    {"message": "here go the notification pane"}
+  ]
+}

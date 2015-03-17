@@ -14,6 +14,10 @@ premiumApp.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/home/home.html',
       controller: 'HomeMain'
     }).
+    when('/viewer', {
+      templateUrl: 'partials/viewer/viewer.html',
+      controller: 'ViewerMain'
+    }).
     when('/firebase', {
       templateUrl: 'partials/firebase/firebase.html',
       controller: 'FirebaseMain'

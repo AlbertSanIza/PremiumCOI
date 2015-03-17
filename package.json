@@ -9,6 +9,7 @@
     "width": 900,
     "height": 600,
     "min_width": 900,
-    "min_height": 600
+    "min_height": 600,
+    "icon": "app/source/img/icons/32x32.png"
   }
 }

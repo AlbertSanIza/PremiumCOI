@@ -1,0 +1,25 @@
+<!-- Viewer -->
+<div class="backstretch" backstretch backstretch-images="'source/img/background/test-01.jpg'" backstretch-duration="5000" backstretch-fade="1">
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div id="board" ng-model="kanbanBoard">
+      <div id="columns" class="row">
+<!-- ----------------------------------------------------------------------- -->
+         <div class="col-sm-{{12/kanbanBoard.columns.length}} col-xs-{{12/kanbanBoard.columns.length}}"
+         ng-repeat="column in kanbanBoard.columns" data-columnindex="{{$index}}" id="column{{$index}}">
+           <div class="column">
+              <div class="columnHeader">
+                <span>{{column.name}} ({{column.cards.length}})</span>
+              </div>
+              <ul class="cards card-list" as-sortable="sortableOptions" ng-model="column.cards" is-disabled="true">
+                <li class="card" ng-repeat="card in column.cards" as-sortable-item ng-include="'partials/card/card.html'"></li>
+              </ul>
+           </div>
+         </div>
+<!-- ----------------------------------------------------------------------- -->
+      </div>
+    </div>
+  </div>
+</div>

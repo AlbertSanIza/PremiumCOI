@@ -10,8 +10,9 @@
 }
 #dDate {
   position: absolute;
-  top: 0px;
-  right: -10px;
+  top: 4px;
+  right: 10px;
+  color: red;
 }
 #board {
   margin: 0; padding: 0 10px 0 10px;
